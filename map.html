@@ -1,10 +1,9 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <style>
        #map {
-        height: 400px;
+        height: 300px;
         width: 100%;
        }
     </style>
@@ -16,7 +15,7 @@
       function calculateAndDisplayRoute(directionsService, directionsDisplay) {
         directionsService.route({
           origin: "Nakaitabashi Station",
-          destination: "173-0021 Tokyo-to, Itabashi-ku, Yayoichﾅ�, 40竏�7",
+          destination: "173-0021 Tokyo-to, Itabashi-ku, Yayoichō, 40−7",
           travelMode: 'WALKING'
         }, function(response, status) {
           if (status === 'OK') {
